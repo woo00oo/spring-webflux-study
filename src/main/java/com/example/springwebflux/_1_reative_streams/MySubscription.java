@@ -16,6 +16,7 @@ public class MySubscription implements Subscription {
         this.iterator = iterable.iterator();
     }
 
+    // 데이터 구독 요청
     @Override
     public void request(long n) {
         while (n > 0) {
@@ -28,6 +29,7 @@ public class MySubscription implements Subscription {
         }
     }
 
+    //데이터 구독 취소
     @Override
     public void cancel() {
 

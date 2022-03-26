@@ -9,6 +9,7 @@ public class MyPub implements Publisher<Integer> {
 
     Iterable<Integer> iterable = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 
+    //데이터를 생성하고 발행하는 역할
     @Override
     public void subscribe(Subscriber<? super Integer> s) {
         System.out.println("구독자 : 출판사야 나 너희 신문 볼게");
