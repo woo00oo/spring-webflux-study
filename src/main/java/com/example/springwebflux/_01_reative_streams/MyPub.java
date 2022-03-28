@@ -1,4 +1,4 @@
-package com.example.springwebflux._1_reative_streams;
+package com.example.springwebflux._01_reative_streams;
 
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;
